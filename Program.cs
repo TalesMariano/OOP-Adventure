@@ -17,8 +17,12 @@ var player = new Player(name);
 Console.WriteLine(Text.Language.Welcome, player.Name);
 
 var house = new House(player);
+house.CreateRooms(3,3);
+house.DecorateRooms();
 
 Actions.Instance.Register(new Go(house));
+
+house.GoToStartingRoom();
 
 var run = true;
 

@@ -42,5 +42,15 @@ public class English : Language
         Gold = "{0} gold {1}";
         Coin = "coin";
         Coins = Coin + "s";
+        Plural = "s";
+        Is = "is";
+        Are = "are";
+        TotalItems = " There {0} {1} item{2} in the room: ";
+        Are = ".";
+        Take = "Take";
+        TakeError = "There is nothing to take.";
+        NotTaken = "You can't take that.";
+        TookDescription = "You took a {0}.";
+        CantTakeDescription = "You can't take the {0}.";
     }
 }

@@ -57,7 +57,7 @@ public class Inventory : IInventory
 
         if (item != null)
         {
-            item.Use(itemName);
+            item.Use(source);
             
             if(item.SingleUse)
                 Remove(item);
